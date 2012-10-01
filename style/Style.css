@@ -344,6 +344,10 @@ ul.mainlist li.item a.add:hover
 {
     text-decoration: underline;
 }
+table#PodcastContainer td.track
+{
+    width: 80px;
+}
 table.songlist
 {
     margin: 5px;

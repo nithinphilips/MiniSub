@@ -888,7 +888,7 @@ function getPodcast(id, action, appendto) {
                     description += child.description;
 
                     var time = secondsToTime(child.duration);
-                    html = generatePodcastHTML(rowcolor, child.streamId, child.parent, child.track, child.title, description, child.artist, child.album, child.coverArt, child.userRating, time['m'], time['s']);
+                    html = generatePodcastHTML(rowcolor, child.streamId, child.parent, date, child.title, description, child.artist, child.album, child.coverArt, child.userRating, time['m'], time['s']);
                     $(html).appendTo(appendto);
                     count++;
                 });
